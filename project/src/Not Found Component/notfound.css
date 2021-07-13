@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer{
+    margin-top: 20% !important;
+}
+
+
+#notfound-header{
+    font-size: 7rem;
+    text-align: center;
+    font-family:"Nunito Sans";
+    margin: 15px 0px;
+    font-size: 7rem;
+    font-weight:bold !important;
+}
+
+#notfound-sec{
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-weight: bold !important;
+}
+
+#forms-para{
+    text-align: center;
+}
+
+#forms-buttons{
+    text-align: center;
+}

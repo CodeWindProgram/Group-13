@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Teacher Attendace Record</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="C:/Users/TANAY SALVE/Desktop/Web Docs/navigation.css">
+        <link rel="stylesheet" href="C:/Users/TANAY SALVE/Desktop/Web Docs/footer.css">
+        <link rel="stylesheet" href="C:/Users/TANAY SALVE/Desktop/Web Docs/view.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    <div class="container">
+            <h2>
+                <div class="well text-center">STUDENT ATTENDANCE MANAGEMENT</div>
+            </h2>
+        </div>
+    <div class="flow">
+        <form action="#" method="POST">
+            <label for="date"><b>Current Studying Date</b></label><br>
+            <input type="datetime" placeholder="Enter Academic Date" name="date" required><br><br>
+            <label for="date"><b>Timing: </b></label><br>
+            <input type="text" placeholder="Enter Academic Year" name="year" required><br><br>
+            <label for="sem"><b>Current Studying Semester</b></label><br>
+            <input type="number" placeholder="Enter Academic Semester" name="sem" required><br><br>
+            <label for="branch"><b>Current Studying Branch</b></label><br>
+            <input type="text" placeholder="Enter Academic Branch" name="branch" required><br><br>
+            <label for="year"><b>Current Studying Year</b></label><br>
+            <input type="text" placeholder="Enter Academic Year" name="year" required><br><br>
+            <label for="division"><b>Current Studying Division</b></label><br>
+            <input type="text" placeholder="Enter Academic Division" name="division" required><br><br>
+            <button type="submit" class="show">Show Attendance</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="mark">Mark Attendance</button><br><br>
+        </form>
+    </div>
+    <div class="mark">
+        <form action="showattendance.php" method="POST">
+            <table class="table table-stripped">
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Attendance Status</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Tanay</td>
+                    <td>TUS3F181932</td>
+                    <td>
+                        <input type="radio" name="status" value="PRESENT"> Present
+                        <input type="radio" name="status" value="ABSENT"> Absent
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="submit" class="btn btn-primary" required>
+        </form>
+    </div>
+    <div class="show">
+        <form action="showattendance.php" method="POST">
+            <table class="table table-stripped">
+                <tr>
+                    <th>Serial Number</th>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Date</th>
+                    <th>Timing</th>
+                    <th>Attendance Status</th>\
+                    <th>Action</th>
+                    <th>Print</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Tanay</td>
+                    <td>TUS3F181932</td>
+                    <td>2021-06-21</td>
+                    <td>10:00:00</td>
+                    <td>Present</td>
+                    <td><input type="submit" value="Edit" class="btn btn-danger"></td>
+                    <td><i style="font-size:28px" class="fa fa-print"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </body>
+</html>

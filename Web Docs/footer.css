@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+footer {
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
