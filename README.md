@@ -38,7 +38,7 @@ Student work done
   ![image](https://user-images.githubusercontent.com/79236923/125631796-fe738f77-27be-4d1a-8f10-d1879d8b5d17.png)
   
  - Teacher Inserting Attendance.
-  ![image](https://user-images.githubusercontent.com/79236923/125634385-ac285b2a-56ea-418d-a1c9-0184bc7fa1a3.png)
+ ![image](https://user-images.githubusercontent.com/79236923/125634385-ac285b2a-56ea-418d-a1c9-0184bc7fa1a3.png)
  
  - Teacher Updating Attendance.
   
@@ -51,22 +51,22 @@ Student work done
 # Chats in Admin 
  - Admin Charts 
  
-   ![image](https://user-images.githubusercontent.com/79236923/125631996-c74fd406-6145-4f13-b87b-e2fa57352517.png)
+  ![image](https://user-images.githubusercontent.com/79236923/125631996-c74fd406-6145-4f13-b87b-e2fa57352517.png)
  
  - Evaluation Of Chart in Admin
  
-   ![image](https://user-images.githubusercontent.com/79236923/125632042-442ff9cd-0abf-42c4-a768-88509f22724b.png)
+  ![image](https://user-images.githubusercontent.com/79236923/125632042-442ff9cd-0abf-42c4-a768-88509f22724b.png)
    
 # Parents Interface
  
  - Student Attendance Report For Parents.
     - Parent with two Childrens
       
-      ![image](https://user-images.githubusercontent.com/79236923/125633595-3f4100f0-48e6-48af-9184-5f944f8ff373.png)
+  ![image](https://user-images.githubusercontent.com/79236923/125633595-3f4100f0-48e6-48af-9184-5f944f8ff373.png)
     
     - Expanding Student Attendance Report in Parent
 
-      ![image](https://user-images.githubusercontent.com/79236923/125633712-bfb461fb-ec6c-4acf-8d16-1861fee58ad8.png)
+  ![image](https://user-images.githubusercontent.com/79236923/125633712-bfb461fb-ec6c-4acf-8d16-1861fee58ad8.png)
 
 # Student Attendance Interface 
  
